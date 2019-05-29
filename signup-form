@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Signup Form</title>
+</head>
+<body>
+    <p>Signup Form</p>
+    <label for="email">Email</label>
+    <input type="text" name="eml" id="email">
+    <br>
+
+    <label for="password">Password</label>
+    <input type="text" name="pwd" id="password">
+    <br>
+
+    <label for="gitusername">Github Username</label>
+    <input type="text" name="gitusernm" id="username">
+    <br>
+
+    <input type="radio" name="version" id="enterprise">
+    <label for="enterprise">Enterprise</label>
+
+    <input type="radio" name="version" id="pro">
+    <label for="pro">Pro</label>
+
+    <input type="radio" name="version" id="free">
+    <label for="free">Free</label>
+    <br>
+
+    <input type="checkbox" name="rmbme" id="rememberme">
+    <label for="remeberme">Remember Me</label>
+  
+</body>
+</html>
